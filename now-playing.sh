@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# moc-twitter-sharing script, by Juanjo Salvador Piedra (aka SrFreak)
+# moc-twitter-sharing 0.1
+# By Juanjo Salvador Piedra (aka SrFreak)
 # for MOC Player community. Written in Shell.
 #
 # Website: http://juanjosalvador.github.io/
