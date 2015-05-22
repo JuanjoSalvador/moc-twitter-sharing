@@ -37,9 +37,9 @@ I want to share the music I'm listening at the moment with MOC. But, MOC doesn't
 ```
 
 * Open with your favourite text editor (e.g. vim) `~/.moc/config`. 
-Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `~/.moc/now-playing.sh` to it.
+Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `/home/<YOUR_USER>/.moc/scripts/now-playing.sh` to it.
 
-Line must be `ExecCommand1 = ~/.moc/scripts/now-playing.sh`. Then, save the file and close it.
+Line must be `ExecCommand1 = /home/<YOUR_USER>/.moc/scripts/now-playing.sh`. Then, save the file and close it.
 
 Now you're ready to share your "#NowPlaying" with MOC.
 
