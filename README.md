@@ -19,11 +19,13 @@ I want to share what I'm playing at this moment with MOC. But, MOC doesn't suppo
 
 ###### Set up the script
 
-* Download `moc-twitter-sharing` from GitHub
+* Download `moc-twitter-sharing` from GitHub.
+```shell
+  git clone https://github.com/JuanjoSalvador/moc-twitter-sharing.git
+  cd moc-twitter-sharing`
+  ```
 
-`git clone https://github.com/JuanjoSalvador/moc-twitter-sharing.git && cd moc-twitter-sharing`
-
-* Copy it to `~/.moc`
+* Copy it into `~/.moc`
 
 `cp now-playing.sh ~/.moc`
 
@@ -33,6 +35,21 @@ Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `~/.moc/now
 Line must be like `ExecCommand1 = ~/.moc/now-playing.sh`. Save
 
 Now you're ready to share your "#NowPlaying" with MOC.
+
+###### Use
+
+To share what are you playing, only press `F1` (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys are
+
+    ExecCommand1  = F1 
+    ExecCommand2  = F2
+    ExecCommand3  = F3
+    ExecCommand4  = F4
+    ExecCommand5  = F5
+    ExecCommand6  = F6
+    ExecCommand7  = F7
+    ExecCommand8  = F8
+    ExecCommand9  = F9
+    ExecCommand10 = F10
 
 #### Contributions
 
