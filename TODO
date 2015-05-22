@@ -1,0 +1,12 @@
+##############################################################################
+#                     To Do List in moc-twitter-sharing                      #
+#                   Juanjo Salvador Piedra  (aka SrFreak)
+##############################################################################
+
+- Remove third-party scripts updating Twitter status from Curl instead from T.
+
+- Remove Ruby from here (simplifies install).
+
+- Create a install guide with some example parameters.
+
+- Create a example/default config file with m-t-s (for those have just installed MOC).
