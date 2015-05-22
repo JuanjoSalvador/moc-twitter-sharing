@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JuanjoSalvador/moc-twitter-sharing.svg)](https://travis-ci.org/JuanjoSalvador/moc-twitter-sharing)
+
 # moc-twitter-sharing
 ### Share #NowPlaying on Twitter from MOC Player
 
