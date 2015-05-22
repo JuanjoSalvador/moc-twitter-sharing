@@ -1,9 +1,12 @@
 ##############################################################################
 #                     To Do List in moc-twitter-sharing                      #
-#                   Juanjo Salvador Piedra  (aka SrFreak)
+#                   Juanjo Salvador Piedra  (aka SrFreak)                    #
 ##############################################################################
 
 - Remove third-party scripts updating Twitter status from Curl instead from T.
+
+    For this proposal, I've found this (PHP example, but adaptable for Shell script)
+    > http://stackoverflow.com/questions/12916539/simplest-php-example-for-retrieving-user-timeline-with-twitter-api-version-1-1
 
 - Remove Ruby from here (simplifies install).
 
