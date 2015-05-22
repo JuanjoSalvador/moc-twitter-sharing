@@ -3,6 +3,10 @@
 
 I want to share what I'm playing at this moment with MOC. But, MOC doesn't support Twitter sharing yet. So, I made this.
 
+![moc-twitter-sharing image](http://i.imgur.com/JCQwILb.png)
+
+[Twitter @FreakViking](http://twitter.com/FreakViking)
+
 #### Dependences
 
 * [T (Twitter CLI client)](http://sferik.github.io/t/)
