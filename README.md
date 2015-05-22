@@ -55,7 +55,7 @@ To share what are you playing, only press `F1` (if you are using `ExecCommand1` 
 
 Feel free to make any change if you think it works better.
 
-If you are experimenting any problem with this, [send me an email](mailto:juanjosalvador@openmailbox.org) or reply into the MOC forum.
+If you are experimenting any problem with this, [send me an email](mailto:juanjosalvador@openmailbox.org) or reply in [the MOC forum](http://moc.daper.net/node/1430).
 
 #### License
 
