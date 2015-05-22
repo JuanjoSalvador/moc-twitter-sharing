@@ -29,20 +29,23 @@ I want to share what I'm playing at this moment with MOC. But, MOC doesn't suppo
   cd moc-twitter-sharing`
   ```
 
-* Copy it into `~/.moc`
+* Copy it into `~/.moc/scripts`
 
-`cp now-playing.sh ~/.moc`
+```shell
+  mkdir .moc/scripts
+  cp now-playing.sh ~/.moc/scripts
+```
 
 * Open with your favourite text editor (e.g. vim) `~/.moc/config`. 
 Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `~/.moc/now-playing.sh` to it.
 
-Line must be like `ExecCommand1 = ~/.moc/now-playing.sh`. Save
+Line must be like `ExecCommand1 = ~/.moc/scripts/now-playing.sh`. Save
 
 Now you're ready to share your "#NowPlaying" with MOC.
 
 ###### Use
 
-To share what are you playing, only press `F1` (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys are
+To share what are you playing, only press `F1` by default (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys are
 
     ExecCommand1  = F1 
     ExecCommand2  = F2
@@ -54,6 +57,8 @@ To share what are you playing, only press `F1` (if you are using `ExecCommand1` 
     ExecCommand8  = F8
     ExecCommand9  = F9
     ExecCommand10 = F10
+
+To use another key, you can modify the keyblind of `ExecCommand`. This repair an issue that open Help Menu of the terminal emulator.
 
 #### Contributions
 
