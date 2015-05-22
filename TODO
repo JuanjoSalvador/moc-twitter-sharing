@@ -13,3 +13,6 @@
 - Create a install guide with some example parameters.
 
 - Create a example/default config file with m-t-s (for those have just installed MOC).
+
+- Create another keyblind with ExecCommand keys (NOT F1/F2/F3, etc).
+    F1 (by default) gets the xcfe-terminal help and not execute command.
