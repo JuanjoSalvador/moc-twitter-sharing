@@ -27,12 +27,14 @@ I want to share what I'm playing at this moment with MOC. But, MOC doesn't suppo
 
 `cp now-playing.sh ~/.moc`
 
-* Edit your `~/.moc/config`. 
+* Open with your favourite text editor (e.g. vim) `~/.moc/config`. 
 Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `~/.moc/now-playing.sh` to it.
+
+Line must be like `ExecCommand1 = ~/.moc/now-playing.sh`. Save
 
 Now you're ready to share your "#NowPlaying" with MOC.
 
-#### Contribs
+#### Contributions
 
 Feel free to make any change if you think it works better.
 
