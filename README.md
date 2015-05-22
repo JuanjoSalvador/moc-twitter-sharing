@@ -1,7 +1,7 @@
 # moc-twitter-sharing
 ### #NowPlaying Twitter Sharing for MOC Player
 
-I want to share what I'm playing at this moment with MOC. But, MOC doesn't support Twotter sharing yet. So, I made this.
+I want to share what I'm playing at this moment with MOC. But, MOC doesn't support Twitter sharing yet. So, I made this.
 
 #### Dependences
 
