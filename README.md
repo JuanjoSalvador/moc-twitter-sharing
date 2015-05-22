@@ -40,4 +40,6 @@ Feel free to make any change if you think it works better.
 
 If you are experimenting any problem with this, [send me an email](mailto:juanjosalvador@openmailbox.org) or reply into the MOC forum.
 
+#### License
 
+This software is free software. You have permission to copy, distribute and modify the software according GNU GPLv2 License. For more information, see LICENSE file.
