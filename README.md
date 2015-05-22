@@ -32,7 +32,7 @@ I want to share the music I'm listening at the moment with MOC. But, MOC doesn't
 * Copy it into `~/.moc/scripts`
 
 ```shell
-  mkdir .moc/scripts
+  mkdir ~/.moc/scripts
   cp now-playing.sh ~/.moc/scripts
 ```
 
@@ -45,7 +45,7 @@ Now you're ready to share your "#NowPlaying" with MOC.
 
 ###### Use
 
-To share what you are listening, only press `F1` by default (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys are
+To share what you are listening, only press `F1` by default (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys by default are these.
 
     ExecCommand1  = F1 
     ExecCommand2  = F2
@@ -58,7 +58,28 @@ To share what you are listening, only press `F1` by default (if you are using `E
     ExecCommand9  = F9
     ExecCommand10 = F10
 
-To use another key, you can modify the keyblind of `ExecCommand`. This repair an issue that open Help Menu of the terminal emulator.
+To use another key, you can modify the keymap file. This repair an issue that open Help Menu of the terminal emulator.
+
+###### Custom keymap
+
+The keymap included with this script is the same as the original MOC, but replaces access keys to `ExecCommand` by CTRL-NUM. For example, key for `ExecCommand1`, instead of being F1 on the keyboard, it is now CTRL-1.
+
+To use it:
+* Move the `custom_keymap` file to `~/.moc/`.
+* Edit your `~/.moc/config` file. Search for the `Keymap`variable, uncomment it, and add the path to `custom_keymap` (by default, `~/.moc/custom_keymap`).
+
+A detailed list of new keys:
+
+    ExecCommand1  = CTRL-1 
+    ExecCommand2  = CTRL-2
+    ExecCommand3  = CTRL-3
+    ExecCommand4  = CTRL-4
+    ExecCommand5  = CTRL-5
+    ExecCommand6  = CTRL-6
+    ExecCommand7  = CTRL-7
+    ExecCommand8  = CTRL-8
+    ExecCommand9  = CTRL-9
+    ExecCommand10 = CTRL-0
 
 #### Contributions
 
