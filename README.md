@@ -1,7 +1,7 @@
 # moc-twitter-sharing
 ### Share #NowPlaying on Twitter from MOC Player
 
-I want to share the music I'm listening at the moment with MOC. But, MOC doesn't support Twitter sharing yet. So, I made this.
+I want to share the music I'm listening at the moment with MOC. But MOC doesn't support Twitter sharing yet. So I made this.
 
 ![moc-twitter-sharing image](http://i.imgur.com/JCQwILb.png)
 
@@ -45,7 +45,7 @@ Now you're ready to share your "#NowPlaying" with MOC.
 
 ###### Use
 
-To share what you are listening, only press `F1` by default (if you are using `ExecCommand1` config). If you're using another ExecCommand, keys by default are these.
+To share what you are listening, only press `F1` by default (if you are using `ExecCommand1` config). If you're using another ExecCommand, these are the keys by default:.
 
     ExecCommand1  = F1 
     ExecCommand2  = F2
@@ -62,9 +62,9 @@ To use another key, you can modify the keymap file.
 
 #### Known issues
 
-###### F1 don't execute the script
+###### F1 won't execute the script
 
-Some terminal emulators (like `xfce4-terminal`) uses F1 key to show help. This make unuseful to use `F1` for this purpose. The solution is change `ExecCommand1` by `ExecCommand2` and use to share what you're listening to.
+Some terminal emulators (like `xfce4-terminal`) use F1 key to show help. This make useless to use `F1` for this purpose. The solution is changing `ExecCommand1` by `ExecCommand2` and using to share what you're listening to.
 
 #### Contributions
 
