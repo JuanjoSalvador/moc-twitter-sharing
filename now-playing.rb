@@ -8,11 +8,11 @@ require 'json'
 # read/write on dev.twitter.com and regenerate your access
 # token.  Enter the new values here:
 consumer_key = OAuth::Consumer.new(
-  "uk7n3u6BtyV4yTZwDL8dS5EDM", # CUSTOMER API KEY
-  "KqZNYNilJ4c0QlJEa0QQur0BU6Z2xu5sE6IrPTdgmvAqHOETwI") # CUSTOMER API SECRET KEY
+  "YOUR CUSTOMER API KEY HERE", # CUSTOMER API KEY
+  "YOUR CUSTOMER API SECRET KEY") # CUSTOMER API SECRET KEY
 access_token = OAuth::Token.new(
-  "73609422-mWOWKoGvSooqiGcTdF8X5hgVsWlkmISxdQBGSmPle", # ACCESS KEY
-  "gab6yUMLd8auxuqEqd9txblS9KOGgDOzNhyA0UkAQ0O8L") # ACCESS SECRET KEY
+  "YOUR ACCESS KEY HERE", # ACCESS KEY
+  "YOUR ACCESS SECRET KEY") # ACCESS SECRET KEY
 
 # Get the data calling a Shell command from Ruby
   artist = "mocp -i | grep Artist | cut -c 9-"     # Get the artist's name executing shell command
