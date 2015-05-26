@@ -48,7 +48,7 @@ Go to `#ExecCommand1` variable, uncomment it (remove the #) and add  `/home/<YOU
 
 Line must be `ExecCommand1 = /home/<YOUR_USER>/.moc/scripts/now-playing.rb`. Then, save the file and close it.
 
-Now you're ready to share your "#NowPlaying" with MOC.
+Now you're ready to share your "#NowPlaying" with MOC. Time to configure Twitter token and API keys.
 
 ###### Use
 
