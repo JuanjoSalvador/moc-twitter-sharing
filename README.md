@@ -5,7 +5,7 @@ I want to share the music I'm listening at the moment with MOC. But MOC doesn't 
 
 ![moc-twitter-sharing image](http://i.imgur.com/JCQwILb.png)
 
-[Twitter @FreakViking](http://twitter.com/FreakViking)
+[Twitter @FreakViking](http://twitter.com/HighLordIron)
 
 #### Dependences
 
